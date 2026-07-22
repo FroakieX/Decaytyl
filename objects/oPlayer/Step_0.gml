@@ -35,7 +35,7 @@ if place_meeting(x,y,oRoom_Tree)
 if (alarm[0] < 0)
 {
 	hp -=	other.damage
-	alarm[0] = 60
+	alarm[0] = 120
 	image_blend = c_green
 	
 	if (hp <= 0)
