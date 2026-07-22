@@ -1,13 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oPlayer",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":2,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oRoom_Tree",
+  "eventList":[],
   "managed":true,
-  "name":"oPlayer",
+  "name":"oRoom_Tree",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -32,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sPlayer",
-    "path":"sprites/sPlayer/sPlayer.yy",
+    "name":"sRoom_Tree",
+    "path":"sprites/sRoom_Tree/sRoom_Tree.yy",
   },
   "spriteMaskId":null,
   "visible":true,

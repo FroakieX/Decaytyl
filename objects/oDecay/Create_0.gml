@@ -1,2 +1,2 @@
-speed = 10
+speed = 4
 direction = oPlayer.image_angle
