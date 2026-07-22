@@ -15,4 +15,9 @@ if keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space)
 {
 	ysp=-4
 }
-move_and_collide(xsp,ysp,oGround,oGround_Base)
+move_and_collide(xsp,ysp,oGround_Base)
+
+if mouse_check_button_pressed(mb_left)
+{
+	instance_create_layer(x,y,"Instances",oDecay)
+}

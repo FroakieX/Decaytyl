@@ -8,7 +8,7 @@
     "children":[],
     "name":"Default",
   },
-  "defaultScriptType":0,
+  "defaultScriptType":1,
   "Folders":[
     {"$GMFolder":"","%Name":"Object","folderPath":"folders/Object.yy","name":"Object","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Sprite","folderPath":"folders/Sprite.yy","name":"Sprite","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -22,6 +22,7 @@
   },
   "name":"Decay",
   "resources":[
+    {"id":{"name":"oDecay","path":"objects/oDecay/oDecay.yy",},},
     {"id":{"name":"oGround_Base","path":"objects/oGround_Base/oGround_Base.yy",},},
     {"id":{"name":"oGround","path":"objects/oGround/oGround.yy",},},
     {"id":{"name":"oPlant","path":"objects/oPlant/oPlant.yy",},},

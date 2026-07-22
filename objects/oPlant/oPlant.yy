@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"oPlant",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"oDecay","path":"objects/oDecay/oDecay.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"oPlant",
   "overriddenProperties":[],
