@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Decay",
-    "path":"Decay.yyp",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
