@@ -18,6 +18,6 @@ if close == true//If close, do the thing
 {
 	if (alarm[1] <= 0)
 	{
-		alarm_set(0, 20);
+		alarm_set(1, 20);
 	}
 }
