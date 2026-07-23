@@ -1,6 +1,3 @@
 image_blend = c_white
 
-if (hp <= 0)
-{
-	instance_destroy()
-}
+instance_create_layer(x, y, "Instances", oDecay);

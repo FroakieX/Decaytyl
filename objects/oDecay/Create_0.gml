@@ -1,3 +1,3 @@
-speed = 4
-direction = oPlayer.image_angle
-damage = 1
+dir = point_direction(x, y, oPlayer.x, oPlayer.y);
+
+damage = 1;//How much player heals
