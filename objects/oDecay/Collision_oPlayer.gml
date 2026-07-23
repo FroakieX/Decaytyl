@@ -1,2 +1,6 @@
 instance_destroy()
-global.hp += damage;
+
+if global.hp < oPlayer.hp_total
+{
+	global.hp += damage;
+}
