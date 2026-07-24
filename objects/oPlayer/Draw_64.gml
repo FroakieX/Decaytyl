@@ -1,0 +1,21 @@
+var _dx = 16;
+var _dy = 16;
+var _barw = 256;
+var _barh = 32;
+
+//Properties
+draw_set_font(fontText);
+draw_set_halign(fa_center);
+draw_set_valign(fa_middle);
+
+//Healthbar
+var _health_barw = _barw * (global.hp / hp_total);
+
+draw_sprite_stretched(sHealthBar, 0, _dx,_dy, _barw,_barh);
+draw_sprite_stretched_ext(sHealthBar, 1, _dx,_dy, _health_barw, _barh, c_red, 0.6);
+
+draw_text(_dx + _barw / 2, _dy +_barh / 2, "HP");
+
+//Reset properties
+draw_set_halign(fa_left);
+draw_set_valign(fa_top);

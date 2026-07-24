@@ -3,11 +3,19 @@ xsp=0;
 
 if keyboard_check(vk_left) or keyboard_check(ord("A"))//Key Check for left
 {
+	if keyboard_check(vk_shift)//Sprint
+	{
+		xsp -= 0.5;
+	}
 	xsp-=1.9;
 }
 
 if keyboard_check(vk_right) or keyboard_check(ord("D"))//Key check for right
 {
+	if keyboard_check(vk_shift)//Sprint
+	{
+		xsp += 0.5;
+	}
 	xsp+=1.9;
 }
 
