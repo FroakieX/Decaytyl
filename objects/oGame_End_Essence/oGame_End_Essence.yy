@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"oBoss",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oGame_End_Essence",
+  "eventList":[],
   "managed":true,
-  "name":"oBoss",
+  "name":"oGame_End_Essence",
   "overriddenProperties":[],
   "parent":{
     "name":"Object",
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBoss",
-    "path":"sprites/sBoss/sBoss.yy",
+    "name":"sEssence",
+    "path":"sprites/sEssence/sEssence.yy",
   },
   "spriteMaskId":null,
   "visible":true,

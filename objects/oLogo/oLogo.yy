@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"oBoss",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"oLogo",
+  "eventList":[],
   "managed":true,
-  "name":"oBoss",
+  "name":"oLogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Decay",
+    "path":"Decay.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBoss",
-    "path":"sprites/sBoss/sBoss.yy",
+    "name":"Logo",
+    "path":"sprites/Logo/Logo.yy",
   },
   "spriteMaskId":null,
   "visible":true,

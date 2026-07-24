@@ -33,7 +33,7 @@ if place_meeting(x,y,oRoom_Tree)
 
 if (alarm[0] < 0)
 {
-	global.hp -= other.damage;
+	global.hp -= other.damage; //Damage source per second
 	alarm[0] = 120;
 	image_blend = c_green;
 	

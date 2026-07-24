@@ -1,15 +1,16 @@
 {
   "$GMObject":"",
-  "%Name":"oBoss",
+  "%Name":"oBossHealthBar",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBoss",
+  "name":"oBossHealthBar",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Decay",
+    "path":"Decay.yyp",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -30,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sBoss",
-    "path":"sprites/sBoss/sBoss.yy",
+    "name":"sBossBar",
+    "path":"sprites/sBossBar/sBossBar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
