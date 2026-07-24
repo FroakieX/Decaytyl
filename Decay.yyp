@@ -23,6 +23,11 @@
   },
   "name":"Decay",
   "resources":[
+    {"id":{"name":"fontButtons","path":"fonts/fontButtons/fontButtons.yy",},},
+    {"id":{"name":"o_Button_Help","path":"objects/o_Button_Help/o_Button_Help.yy",},},
+    {"id":{"name":"o_Button_Parent","path":"objects/o_Button_Parent/o_Button_Parent.yy",},},
+    {"id":{"name":"o_Button_Play","path":"objects/o_Button_Play/o_Button_Play.yy",},},
+    {"id":{"name":"o_Button_Quit","path":"objects/o_Button_Quit/o_Button_Quit.yy",},},
     {"id":{"name":"oBoss","path":"objects/oBoss/oBoss.yy",},},
     {"id":{"name":"oBossHealthBar","path":"objects/oBossHealthBar/oBossHealthBar.yy",},},
     {"id":{"name":"oDecay","path":"objects/oDecay/oDecay.yy",},},
@@ -46,6 +51,7 @@
     {"id":{"name":"sBackground","path":"sprites/sBackground/sBackground.yy",},},
     {"id":{"name":"sBoss","path":"sprites/sBoss/sBoss.yy",},},
     {"id":{"name":"sBossBar","path":"sprites/sBossBar/sBossBar.yy",},},
+    {"id":{"name":"sButton","path":"sprites/sButton/sButton.yy",},},
     {"id":{"name":"sDecay","path":"sprites/sDecay/sDecay.yy",},},
     {"id":{"name":"sEssence","path":"sprites/sEssence/sEssence.yy",},},
     {"id":{"name":"sFountain","path":"sprites/sFountain/sFountain.yy",},},
@@ -60,10 +66,10 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Room2Boss","path":"rooms/Room2Boss/Room2Boss.yy",},},
     {"roomId":{"name":"Room3_End_Screen","path":"rooms/Room3_End_Screen/Room3_End_Screen.yy",},},
-    {"roomId":{"name":"Menu","path":"rooms/Menu/Menu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
