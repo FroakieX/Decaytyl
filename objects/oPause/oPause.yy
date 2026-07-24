@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"oBossHealthBar",
+  "%Name":"oPause",
   "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":77,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"oBossHealthBar",
+  "name":"oPause",
   "overriddenProperties":[],
   "parent":{
-    "name":"Object",
-    "path":"folders/Object.yy",
+    "name":"Decay",
+    "path":"Decay.yyp",
   },
   "parentObjectId":null,
-  "persistent":false,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,10 +31,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"sBossBar",
-    "path":"sprites/sBossBar/sBossBar.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -9,8 +9,8 @@
   "name":"o_Button_Parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decay",
-    "path":"Decay.yyp",
+    "name":"Buttons",
+    "path":"folders/Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,

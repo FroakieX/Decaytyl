@@ -31,22 +31,24 @@ if place_meeting(x,y+1,oGround_Base)
 
 move_and_collide(xsp,ysp,oGround_Base);
 
-
-
 if place_meeting(x,y,oRoom_Tree)
 {
 	room_goto_next()
 }
 
-
 if (alarm[0] < 0)
 {
-	global.hp -= other.damage; //Damage source per second
+	hp -= other.damage; //Damage source per second
 	alarm[0] = 120;
 	image_blend = c_green;
 	
-	if (global.hp <= 0)
+	if (hp <= 0)
 	{
 		room_restart()
 	}
+}
+
+if place_meeting(x,y,oGame_End_Essence)
+{
+	room_goto(Room3_End_Screen)
 }

@@ -13,6 +13,7 @@
     {"name":"inst_55CE4647","path":"rooms/Room2Boss/Room2Boss.yy",},
     {"name":"inst_672F48FB","path":"rooms/Room2Boss/Room2Boss.yy",},
     {"name":"inst_19ABCCCB","path":"rooms/Room2Boss/Room2Boss.yy",},
+    {"name":"inst_475B322B","path":"rooms/Room2Boss/Room2Boss.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -24,6 +25,7 @@
         {"$GMRInstance":"v4","%Name":"inst_55CE4647","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_55CE4647","objectId":{"name":"oPlatform_End","path":"objects/oPlatform_End/oPlatform_End.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":11.25,"scaleX":0.7768858,"scaleY":0.7768858,"x":1656.0,"y":809.14984,},
         {"$GMRInstance":"v4","%Name":"inst_672F48FB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_672F48FB","objectId":{"name":"oPlatform","path":"objects/oPlatform/oPlatform.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":10.25,"scaleX":8.157301,"scaleY":0.7768858,"x":1702.9624,"y":800.0,},
         {"$GMRInstance":"v4","%Name":"inst_19ABCCCB","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_19ABCCCB","objectId":{"name":"oBoss","path":"objects/oBoss/oBoss.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1239.0,"y":583.0,},
+        {"$GMRInstance":"v4","%Name":"inst_475B322B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_475B322B","objectId":{"name":"oPause","path":"objects/oPause/oPause.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":16.0,"y":16.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRBackgroundLayer":"","%Name":"Background","animationFPS":30.0,"animationSpeedType":0,"colour":4294967295,"depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"name":"Background","properties":[],"resourceType":"GMRBackgroundLayer","resourceVersion":"2.0","spriteId":{"name":"BossBackground","path":"sprites/BossBackground/BossBackground.yy",},"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],

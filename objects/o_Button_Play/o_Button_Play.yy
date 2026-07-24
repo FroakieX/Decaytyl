@@ -10,8 +10,8 @@
     {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Button_Parent","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Play",},
   ],
   "parent":{
-    "name":"Decay",
-    "path":"Decay.yyp",
+    "name":"Buttons",
+    "path":"folders/Buttons.yy",
   },
   "parentObjectId":{
     "name":"o_Button_Parent",

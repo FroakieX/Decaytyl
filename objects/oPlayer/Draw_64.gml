@@ -9,7 +9,7 @@ draw_set_halign(fa_center);
 draw_set_valign(fa_middle);
 
 //Healthbar
-var _health_barw = _barw * (global.hp / hp_total);
+var _health_barw = _barw * (hp / hp_total);
 
 draw_sprite_stretched(sHealthBar, 0, _dx,_dy, _barw,_barh);
 draw_sprite_stretched_ext(sHealthBar, 1, _dx,_dy, _health_barw, _barh, c_red, 0.6);

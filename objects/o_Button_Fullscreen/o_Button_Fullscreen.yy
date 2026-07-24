@@ -1,17 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"o_Button_Help",
+  "%Name":"o_Button_Fullscreen",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_Button_Help",
+  "name":"o_Button_Fullscreen",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Button_Parent","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Help",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Button_Parent","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Fullscreen",},
   ],
   "parent":{
-    "name":"Decay",
-    "path":"Decay.yyp",
+    "name":"Buttons",
+    "path":"folders/Buttons.yy",
   },
   "parentObjectId":{
     "name":"o_Button_Parent",

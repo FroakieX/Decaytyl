@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"o_Button_Quit",
+  "%Name":"o_Button_Back",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"o_Button_Quit",
+  "name":"o_Button_Back",
   "overriddenProperties":[
-    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Button_Parent","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Quit",},
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"o_Button_Parent","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"propertyId":{"name":"button_text","path":"objects/o_Button_Parent/o_Button_Parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Back",},
   ],
   "parent":{
     "name":"Buttons",
