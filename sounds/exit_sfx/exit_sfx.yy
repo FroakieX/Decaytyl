@@ -6,11 +6,11 @@
     "path":"audiogroups/audiogroup_default",
   },
   "bitDepth":1,
-  "channelFormat":0,
+  "channelFormat":1,
   "compression":0,
   "compressionQuality":4,
   "conversionMode":0,
-  "duration":0.0,
+  "duration":0.6187075,
   "exportDir":"",
   "name":"exit_sfx",
   "parent":{
@@ -21,6 +21,6 @@
   "resourceType":"GMSound",
   "resourceVersion":"2.0",
   "sampleRate":44100,
-  "soundFile":"",
-  "volume":1.0,
+  "soundFile":"exit_sfx.wav",
+  "volume":0.5,
 }

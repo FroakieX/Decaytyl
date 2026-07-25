@@ -26,6 +26,7 @@ if place_meeting(x,y+1,oGround_Base)
 	if keyboard_check(vk_up) or keyboard_check(ord("W")) or keyboard_check(vk_space)//Key check for jump
 		{
 			ysp=-4;
+			audio_play_sound(jump_sfx, 1, false);
 		}
 }
 
@@ -33,11 +34,20 @@ move_and_collide(xsp,ysp,oGround_Base);
 
 if place_meeting(x,y,oRoom_Tree)
 {
-	room_goto_next()
+	if room == Room1
+	{
+		room_goto(puzzle_one);
+		audio_play_sound(exit_sfx, 1, false);
+	}
+	if room == puzzle_one
+	{
+		room_goto_next();
+	}
 }
 
 if (alarm[0] < 0)
 {
+	audio_play_sound(damage_sfx, 1, false);
 	hp -= other.damage; //Damage source per second
 	alarm[0] = 120;
 	image_blend = c_green;
