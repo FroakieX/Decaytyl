@@ -6,8 +6,8 @@
   "name":"oLogo",
   "overriddenProperties":[],
   "parent":{
-    "name":"Decay",
-    "path":"Decay.yyp",
+    "name":"Object",
+    "path":"folders/Object.yy",
   },
   "parentObjectId":null,
   "persistent":false,

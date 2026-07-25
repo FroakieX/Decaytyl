@@ -45,8 +45,8 @@
   },
   "origin":4,
   "parent":{
-    "name":"Decay",
-    "path":"Decay.yyp",
+    "name":"Sprite",
+    "path":"folders/Sprite.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
