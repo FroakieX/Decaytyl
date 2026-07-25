@@ -5,15 +5,15 @@ if place_meeting(x,y+ysp,oGround_Base)
 	ysp=0;
 }
 
-if place_meeting(x-1, y, oPlayer)//
+if place_meeting(x-1, y, oPlayer)//Moves right
 {
 	move_and_collide(1, ysp, oGround_Base);
-	image_angle += 1;
+	angle -= 1;
 }
-else if place_meeting(x+1, y, oPlayer)//
+else if place_meeting(x+1, y, oPlayer)//Moves left
 {
 	move_and_collide(-1, ysp, oGround_Base);
-	image_angle -= 1;
+	angle += 1;
 }
 else
 {
