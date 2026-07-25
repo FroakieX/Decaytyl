@@ -7,17 +7,17 @@ if place_meeting(x,y+ysp,oGround_Base)
 
 
 
-if place_meeting(x-1, y, oPlayer)//
+if place_meeting(x-1, y, oPlayer) and !place_meeting(x+1,y,oGround_Base)//move and rotate boulder right
 {
 	move_and_collide(1, ysp, oGround_Base);
-	image_angle += 1;
+	angle -= 1;
 }
-else if place_meeting(x+1, y, oPlayer)//
+else if place_meeting(x + 1, y, oPlayer) and !place_meeting(x-1,y,oGround_Base)//move and rotate boulder left
 {
 	move_and_collide(-1, ysp, oGround_Base);
-	image_angle -= 1;
+	angle += 1;
 }
 else
 {
-	move_and_collide(0,ysp,oGround_Base);
+	move_and_collide(0, ysp, oGround_Base);
 }
