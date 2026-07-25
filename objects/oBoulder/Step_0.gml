@@ -5,8 +5,6 @@ if place_meeting(x,y+ysp,oGround_Base)
 	ysp=0;
 }
 
-
-
 if place_meeting(x-1, y, oPlayer)//
 {
 	move_and_collide(1, ysp, oGround_Base);
