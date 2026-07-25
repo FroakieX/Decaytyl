@@ -18,6 +18,8 @@ if (keyboard_check_pressed(vk_escape)) //Toggle pause (Whatever condition/trigge
 	if (!pause) //pause now
 	{
 		pause = true;
+		
+		show_message("Paused")
 
 		//deactivate everything other than this instance
 		instance_deactivate_all(true);

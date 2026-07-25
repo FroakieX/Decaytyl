@@ -62,3 +62,27 @@ if place_meeting(x,y,oGame_End_Essence)
 {
 	room_goto(Room3_End_Screen)
 }
+
+if place_meeting(x,y,oGrass_Spikes)
+{
+	room_restart()
+}
+
+//Block horizontal collision
+var block = instance_place(x, y, oBoulder);
+
+if (place_meeting(x+xsp,y,oBoulder))
+{
+    while (!place_meeting(x+sign(xsp),y,oBoulder))
+    {
+        x = x + sign(xsp);
+    }
+    xsp = 1;
+}
+
+//Block push
+if (block != noone) {
+  block.x += sign(xsp);
+}
+
+x = x + xsp;

@@ -1,0 +1,2 @@
+audio_stop_sound(Grass_step)
+audio_stop_sound(Grass_Run)
