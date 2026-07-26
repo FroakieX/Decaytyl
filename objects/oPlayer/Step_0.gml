@@ -43,24 +43,32 @@ if place_meeting(x,y,oRoom_Tree)
 	{
 		room_goto_next();
 	}
+	if room == Home
+	{
+		room_goto_next()
+		audio_play_sound(exit_sfx, 1, false);
+	}
+	if room == puzzle_two
+	{
+		room_goto_next();
+	}
 }
-
 if (alarm[0] < 0)
-{
-	audio_play_sound(damage_sfx, 1, false);
-	hp -= other.damage; //Damage source per second
-	alarm[0] = 120;
-	image_blend = c_green;
+	{
+		audio_play_sound(damage_sfx, 1, false);
+		hp -= other.damage; //Damage source per second
+		alarm[0] = 150;
+		image_blend = c_green;
+	}
 	
-	if (hp <= 0)
+if (hp <= 0)
 	{
 		room_restart()
 	}
-}
 
 if place_meeting(x,y,oGame_End_Essence)
 {
-	room_goto(Room3_End_Screen)
+	room_goto(End_Screen)
 }
 
 if place_meeting(x,y,oGrass_Spikes)
@@ -72,7 +80,7 @@ if place_meeting(x,y, oTutorial_Dialog)
 	create_dialog([
 	{
 		name: "Tutori",
-		msg: "Press Space to Jump. The movement keys are wasd."
+		msg: "Press Space to Jump. The movement keys are wasd. Sprint with shift. K is to send out waves of sound."
 	}
 	])
 }
@@ -91,6 +99,24 @@ if place_meeting(x,y, oTutorial_Dialog_2)
 	{
 		name: "Tutori",
 		msg: "Plants help keep you alive longer by absorbing their life essence."
+	}
+	])
+}
+if place_meeting(x,y, oTutorial_Dialog_3)
+{
+	create_dialog([
+	{
+		name: "Tutori",
+		msg: "You are feeling very sick after drinking with the band... How about taking a drink from the well ahead!."
+	}
+	])
+}
+if place_meeting(x,y, oFountain)
+{
+	create_dialog([
+	{
+		name: "Tutori",
+		msg: "OH NO! You look enev worse after drinking that. Quickly go ahead into the field ahead. It always makes you feel better"
 	}
 	])
 }

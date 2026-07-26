@@ -19,8 +19,7 @@
   "height":385,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"0e9a68e3-d82a-4906-bfc1-645f728e9849","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"0e9a68e3-d82a-4906-bfc1-645f728e9849","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
-    {"$GMImageLayer":"","%Name":"f1b9a464-05d1-44a0-9964-4fd1d6155464","blendMode":0,"displayName":"default","isLocked":false,"name":"f1b9a464-05d1-44a0-9964-4fd1d6155464","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"034fb056-eaec-4476-aed2-91403aee35bf","blendMode":0,"displayName":"default","isLocked":false,"name":"034fb056-eaec-4476-aed2-91403aee35bf","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"sGroundTiles",
   "nineSlice":null,
