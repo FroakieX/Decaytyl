@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Tutorial_1",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Tutorial_1",
+  "parent":{
+    "name":"Decay",
+    "path":"Decay.yyp",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

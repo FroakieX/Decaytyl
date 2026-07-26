@@ -67,3 +67,30 @@ if place_meeting(x,y,oGrass_Spikes)
 {
 	room_restart()
 }
+if place_meeting(x,y, oTutorial_Dialog)
+{
+	create_dialog([
+	{
+		name: "Tutori",
+		msg: "Press Space to Jump. The movement keys are wasd."
+	}
+	])
+}
+if place_meeting(x,y, oTutorial_Dialog_1)
+{
+	create_dialog([
+	{
+		name: "Tutori",
+		msg: "You can push Boulders with your goopy hands."
+	}
+	])
+}
+if place_meeting(x,y, oTutorial_Dialog_2)
+{
+	create_dialog([
+	{
+		name: "Tutori",
+		msg: "Plants help keep you alive longer by absorbing their life essence."
+	}
+	])
+}
